@@ -1,13 +1,103 @@
-/* Font Color : #0A0A0A */
-/* Font Color : #DA5B05 */
-/* COlor hover/ text disorot : #2ecc71 */
-/* Font Color : #fff */
-/* Background primary Color : #22313F */
-/* Background element Color : #F4A811 */
-/* Footer Background Color : #121212 */
-
 * {
     margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+    float: left;
+    padding-top: 15px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color:#121212;
+    position: fixed;
+    z-index: 10;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+header ul li a:hover {
+    background-color:rgb(240, 171, 22);
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.banner {
+    height: 80vh;
+    background-image: url('/images/garment.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.banner::after {
+    content: '';
+    display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(240, 171, 22, 0.2);
+}
+.banner h2 {
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    font-size: 50px;
+}
+
+section {
+    padding: 50px 40px;
+    background-color: #e0e0e0;
+}
+.container h3 {
+    text-align: center;
+    color: #121212;
+    margin-bottom: 5px;
+}
+.about .container p {
+    color: #444444;
+    word-spacing: 2px;
+    line-height: 25px;
+    padding: 25px;
+    text-align:center;
+}
+
+.container-gallery .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid#2980b9;
+    flex: 25%;
+    max-width: 25%;
 }
 .product-wrapper {
     overflow: hidden;
@@ -21,7 +111,7 @@
 }
 .heading h2 {
     font-weight: normal;
-    color: #0A0A0A;
+    color:#ffffff;
     font-weight: bold;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
@@ -102,4 +192,5 @@
     float: left;
     float: bottom;
 }
+
 
