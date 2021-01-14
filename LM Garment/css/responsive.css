@@ -1,0 +1,48 @@
+@media(max-width: 1000px) {
+    .product {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        width: 50%
+    }
+
+    .footer {
+        padding: 40px 50px 30px 50px;
+    }
+
+    .footer-logo{
+        width: 200px;
+    }
+
+    .footer-list {
+        margin: 0;
+    }
+}
+
+@media(max-width:750px) {
+    .heading h2 {
+        font-size: 30px;
+    }
+
+    .product {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        width: 100%
+    }
+
+    .footer {
+        padding: 40px 50px 30px 50px;
+    }
+
+    .footer-logo{
+        width: 150px;
+        align-items: center;
+    }
+
+    .footer-list {
+        margin: 0;
+    }
+
+    .footer-address {
+        width: 120px;
+    }
+}
