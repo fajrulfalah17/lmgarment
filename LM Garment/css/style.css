@@ -7,5 +7,99 @@
 /* Footer Background Color : #121212 */
 
 * {
+    margin: 0;
+}
+.product-wrapper {
+    overflow: hidden;
+    padding-bottom: 80px;
+    background-color: rgb(240, 171, 22);
+    text-align: center;
+} 
+
+.heading {
+    padding: 30px 30px;
+}
+.heading h2 {
+    font-weight: normal;
+    color: #0A0A0A;
+    font-weight: bold;
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.products {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: auto;
+    width: 25%;
+    margin-top: 5px;
+}
+
+.product-icon {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.product-icon .product-title {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.footer {
+    background-color:#121212;
+    color:rgb(189, 189, 189);
+    height: 200px;
+    padding: 50px 100px;
+}
+
+.footer-logo{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-list {
+    float: right;
+    margin: 0px 10px;
+    margin-right: 50px;
+    
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+}
+
+.footer-list li a:hover {
+    color:rgb(240, 171, 22);
+}
+
+.footer-address {
+    float: left;
+    float: bottom;
+}
+
